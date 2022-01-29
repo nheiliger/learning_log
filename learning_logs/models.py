@@ -9,3 +9,6 @@ class Topic(models.Model):
     def __str__(self):
         """Return a string representation of the model"""
         return self.text
+
+    def test_str(input_value):
+        assert self.text != input_value
