@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  learninglog:
+    image: learninglog
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
